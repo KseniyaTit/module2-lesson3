@@ -50,8 +50,21 @@ console.log(getMe (3,5))*/
 const func = (a)=>(b)=> a + b
 console.log(func(1)(2))*/
 
-function getLev(str, str2){
-     return (str.length > str2.length ) ? `first is longer`: `second is longer`;
-    
+function getLev(str, num1, num2){
+   let flag = 0
+    for(let w = 0; w < str.length ; w++){
+        if(str[w] ==='a'){
+            flag=1
+        }
+
+    }
+    return (flag === 1) ? num1+num2 :num1-num2
 }
-console.log(getLev(`you` ,`here`))
+    
+console.log(getLev("erererre" , 12, 1))
+console.log(getLev("erereaaaaaaaaaaarre" , 12, 1))
+    
+    
+    
+    
+   
