@@ -17,7 +17,7 @@ for(let i = 0; i < str.length; i++){
     if (countA > countB) console.log(`more A`)
     if (countA < countB) console.log(`more B`)
     }
-    console.log(`a: $[countA]`, `b: $[countB]`)*/
+    console.log(`a: ${countA}`, `b: ${countB}`)*/
 
 /*function getName (a, b){
     return(a+b);
